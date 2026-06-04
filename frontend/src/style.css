@@ -1,0 +1,31 @@
+/* src/style.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the browser window is the primary scroll container */
+html, body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  height: auto !important; /* Forces the body to grow with content */
+  overflow-x: hidden;
+  overflow-y: visible !important; /* REQUIRED for position: sticky */
+}
+
+
+/* Hide scrollbar but keep scroll */
+.no-scrollbar {
+  -ms-overflow-style: none;     /* IE & Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+
+
+#app {
+  overflow: visible !important;
+  display: block; /* Ensures no flex-box conflicts at the root */
+}
