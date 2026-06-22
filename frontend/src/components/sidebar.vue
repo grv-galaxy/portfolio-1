@@ -7,7 +7,7 @@ const isExpanded = ref(false);
 
 const contactInfo = [
   { id: 1, label: 'EMAIL', value: 'thakurgauravkr@gmail.com', icon: Mail },
-  { id: 2, label: 'PHONE', value: '+91 8595109337', icon: Phone },
+  { id: 2, label: 'PHONE', value: '+91 85xxxxxxxx', icon: Phone },
   { id: 3, label: 'BIRTHDAY', value: 'April 23, 2005', icon: Calendar },
   { id: 4, label: 'LOCATION', value: 'West, New Delhi, INDIA', icon: MapPin },
 ];

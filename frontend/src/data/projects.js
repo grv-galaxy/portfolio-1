@@ -19,7 +19,7 @@ export const projects = [
     id: 3,
     title: "Indoria Travel Agency",
     category: "Full-Stack",
-    image: "/images/projects/travel-agency.png",
+    image: "./images/projects/travel.jpg",
     link: "https://indoria.gcodes.co.in",
     description: "A comprehensive travel booking platform with real-time availability and user-friendly interface."
   }
