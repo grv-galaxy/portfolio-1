@@ -4,7 +4,7 @@ export const projects = [
     title: "AI Sentiment Analysis",
     category: "Machine Learning",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800", // Replace with your project screenshots
-    link: "#",
+    link: "https://grv-galaxy.github.io/AI-sentimental-analysis/",
     description: "A deep learning model built with Python and PyTorch."
   },
   {
